@@ -1,31 +1,14 @@
-# Insert Python Repository Name Here
+# Hops python functions to Azure App Service - Sample Application
 
-![Python Logo](./python_logo.png)
 ## Description
-Insert repository description here. Please ensure that a prospective user is able to clearly understand the purpose of this repository from this description.
+This is a sample Flask application exposing and end-point (using the sample example provided by McNeel) used by Hops.
 
-## Repository Ownership
-* **Practice**: INSERT HERE
-* **Sector**: - INSERT HERE
-* **Original Author(s)**: - INSERT HERE
-* **Contact Details for Current Repository Owner(s)**: - INSERT HERE
-## Installation Instructions
-In order to successfully run the code in this respository, it is recommended that you create a virtual environment and install the required packages from the requirements.txt file provided. This can be done either through pip or conda Python package managers in the appropriate command line.
+## Useful links
+* [Hops](https://github.com/mcneel/compute.rhino3d/tree/master/src/ghhops-server-py)
+* [Azure](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cvscode-aztools%2Cterminal-bash%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cdeploy-instructions-zip-azcli)
 
-```
-# For pip
-> python -m venv .\venv
-> venv\Scripts\activate
-> pip install -r requirements.txt
+## How to use it:
+1. Open Rhino and Grasshopper and add to the canvas Hops, if you don't have it dowload it using the packager manager.
+2. Add this path to Hops `https://demo-rhino-hops.azurewebsites.net/pointat`
 
-# For conda
-> conda create --name venv --file requirements.txt
-> conda activate
-```
-
-## Running the Code
-Insert instructions on how to run the code here.
-
-```
-
-```
+![image](https://user-images.githubusercontent.com/57708659/157771345-aa1f7d75-792f-4f3e-a3fa-8fabb464645e.png)
